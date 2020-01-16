@@ -430,11 +430,18 @@
     <!-- script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript">
+        $(".tit .btn").click(function(e){
+            //$("#cont_nav").css("display","block");
+            //$("#cont_nav").show();
+            //$('#cont_nav').fadeIn();
+            //$('#cont_nav').slidedown();
+            //$("#cont_nav").toggle();
+            //$("#cont_nav").fadeToggle();
+            $("#cont_nav").slideToggle(150);
+            e.preventDefault();
+            $(this).toggleClass("on");
+        });
     </script>
 
 </body>
 </html>
-
-
-
-
