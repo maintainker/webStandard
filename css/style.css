@@ -5,9 +5,9 @@
     color: #fff; line-height: 30px;width: 166px;text-align: center;}
 #skip a:active,#skip a:focus {top: 0;}
 /* Layout */
-#wrap {width: 100%;}
+#wrap {}
 #header {height: 325px;background: url(../img/header_bg.jpg) center top repeat-x;}
-#footer {width: 100%; height: 200px; background: #333;}
+#footer {border-top: 1px solid #eee;}
 
 /*contents layout*/
 #cont_nav {background-color: #f6fdff;}
@@ -217,9 +217,12 @@
 .popup li.last {margin-right: 0;}
 
 
-
-
-
+/* footer */
+.footer {padding: 25px 0; text-align: center;}
+.footer ul {margin-bottom: 20px;}
+.footer li {display: inline; padding: 0 7px 0 10px;position: relative; }
+.footer li::before {content: '';width: 1px; height: 12px; background-color: #ccc; position: absolute; top: 2px; left: 0;}
+.footer li:first-child:before {content: '';width: 0; height: 0; background-color: #ccc; position: absolute; top: 2px; left: 0;}
 
 
 
