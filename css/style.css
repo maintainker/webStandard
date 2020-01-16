@@ -223,7 +223,7 @@
 .footer li {display: inline; padding: 0 7px 0 10px;position: relative; }
 .footer li::before {content: '';width: 1px; height: 12px; background-color: #ccc; position: absolute; top: 2px; left: 0;}
 .footer li:first-child:before {content: '';width: 0; height: 0; background-color: #ccc; position: absolute; top: 2px; left: 0;}
-
+.footer .w3c {margin-top: 15px;}
 
 
 
